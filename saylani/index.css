@@ -1,0 +1,16 @@
+#nav-item{
+    margin: 10px;
+}
+.change-containt::after{
+    containt: '';
+    animation: changetext 10s infinite linear;
+    color: #00b894;
+}
+@keyframes changetext{
+    0%{containt:'IT'}
+    20%{containt:'web'}
+    40%{containt:'pythan'}
+    60%{containt:'Networking'}
+    80%{containt:'block chain'}
+    100%{containt:'Security'}
+}
